@@ -1,6 +1,6 @@
-'use client';
+"use client";
 import Card from "./components/Card";
-<<<<<<< HEAD
+import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import NavBar from "./components/NavBar";
 import HeroBanner from "./components/HeroBanner";
@@ -16,8 +16,6 @@ import {
 } from "@/components/ui/pagination"
 import { Container } from "postcss";
 import { DotsHorizontalIcon } from "@radix-ui/react-icons";
-
-
 
 
 
@@ -85,12 +83,11 @@ export default function Home() {
             </div>
           ))}
       </div>
-=======
-    <main className="flex flex-col items-center justify-center pb-24 ">
-      <NavBar/>
-      <HeroBanner/>
-      <ListPosts posts = {posts}/>
->>>>>>> 69f9127 (added header, hero banner and styling to hover)
+      <PaginationControls
+                totalItems={data?.length}
+                itemsPerPage={itemsPerPage}
+                currentPage={currentPage}
+                setCurrentPage={setCurrentPage}/>
     </main>
   );
 }
