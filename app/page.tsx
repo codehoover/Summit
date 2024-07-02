@@ -108,11 +108,13 @@ function PaginationControls({totalItems, itemsPerPage, currentPage, setCurrentPa
           if(currentPage < pages.length){
               setCurrentPage(currentPage + 1);
           }
+          window.scrollTo(0,600)
       };
       const handlePrevPage = () => {
           if(currentPage > 1){
               setCurrentPage(currentPage - 1);
           }
+          window.scrollTo(0,600)
       }
 
 
@@ -124,6 +126,7 @@ function PaginationControls({totalItems, itemsPerPage, currentPage, setCurrentPa
               </PaginationItem>
               {pages.map((page,idx) =>(
                   <PaginationItem
+                  onClick={ () => window.scrollTo(0,600)}
                   key={idx}
                   className={currentPage === page ? "bg-neutral-100 rounded-md hover:cursor-pointer": "hover:cursor-pointer "}
                   >
