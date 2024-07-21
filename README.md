@@ -17,6 +17,6 @@
 
 ps. might need to refresh on first load if cards aren't populated
 
-I struggled and did not succeed in creating tests as the setup managed to get the best of me. However the site should be responsive and fully functioning. 
+This is exemplifying my ability to consume an API and transform the data into someting readable.
 
 Overall I had a great time tackling this challenge.
