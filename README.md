@@ -1,4 +1,4 @@
-##coding challenge
+## coding challenge
 
 ## Tech stack: 
 - Nextjs
