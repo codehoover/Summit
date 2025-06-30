@@ -1,3 +1,4 @@
+##coding challenge
 
 ## Tech stack: 
 - Nextjs
@@ -14,9 +15,6 @@
 
 - Development server should be running at http://localhost:3000 
 
-
-ps. might need to refresh on first load if cards aren't populated
-
 This is exemplifying my ability to consume an API and transform the data into someting readable.
 
-Overall I had a great time tackling this challenge.
+
